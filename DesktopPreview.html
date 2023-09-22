@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Page</title>  
+  <link rel="stylesheet" href="WeatherStyle.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   -->
+  </head>
+  <header>
+    <h1>How's the weather at your end!!</h1>
+  </header>
+  <div class="background">
+    </div>
+    <!-- <p id="permissionStatus" onload="locationAccess()"></p> -->
+    <div id="inputWrapper">
+   <input id="weatherSearch" onkeydown=getWeatherInformation(event) type="search" placeholder="Enter Location">
+   <div class="searchImage"></div>
+   <!-- <div id="currentDetails"></div> -->
+  
+   <div id="weatherContent"></div>
+   <p class="weatherContainer"></p>
+    </div>
+    <script src="weatherMain.js"></script>
+</body>
+
+</html>
